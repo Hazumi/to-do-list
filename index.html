@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>To-Do</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  
+  <div class="wrapper">
+    <h1>To-Do List</h1>
+    <form action="get">
+      <input id="input" type="text" placeholder="Add item and press enter">
+    </form>
+    <div id="display">
+      <ul id="list">
+        <li class="item"><p>Go jogging</p><button class="edit">Edit</button><button class="check">&#10004;</button><button class="remove">X</button></li>
+        <li class="item"><p>Drink coffee</p><button class="edit">Edit</button><button class="check">&#10004;</button><button class="remove">X</button></li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
+
